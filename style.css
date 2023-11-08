@@ -1,0 +1,136 @@
+body{
+    overflow-x: hidden; 
+ }
+.bginfo{
+background-color: black;
+padding-top: 10px;}
+.img-fluid{
+height:50px;
+width: 9%;
+background-color: black;
+
+}
+.container-fluid{
+ 
+    padding-top: 1px;
+    margin-top: -8px;
+    background-color: black;
+  
+    margin-right: 10px;
+    
+
+}
+.nav-item:hover{
+    text-decoration: underline;
+    color: aliceblue;
+}
+.icons{
+    padding-left:820px;
+    align-items: end;
+}
+.ri-user-line:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+    transition: all .5s;
+}
+.col{
+    width: 23%;
+    height: 50px;
+}
+
+@media (max-width: 991px) {
+    .navbar-toggler-icon{
+        background-color: white;
+
+    }
+  
+   
+    
+}
+@media (max-width: 480px) {
+    
+    #container1{
+        width: 100%;
+        flex-direction: column;
+        background-color: black;
+    }
+ 
+    
+}
+#container1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+   
+ 
+   
+}
+#row1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+}
+
+.author
+{
+    width: 100%;
+    height: 500px;
+}
+
+.bu{
+ width: 15%; 
+
+background-color: black;
+cursor: pointer;
+}
+.cardimGE
+{
+    margin: 10px!important;
+    width: 100%!important;
+    
+}
+.footer{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    
+  
+}
+.last{
+    width: 100%;
+    height: 100px;
+    background-color:black;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+
+}
+.lis{
+    list-style: none;
+    text-decoration: underline;
+    color: gray;
+}
+.text-footer:hover
+{
+    color: white;
+}
+
+.effect{
+    color:white;
+    
+}
+.rp:hover{
+  
+    text-decoration: underline;
+    color:white;
+}
+.footerlist
+{
+    display: flex;
+    list-style: none;
+}
